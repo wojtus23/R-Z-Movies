@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R&Z Movies</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>R&Z Movies</h1>
-    <p>Popularne teraz</p>
+    <h2>Popularne teraz</h2>
+    <form action="/search" method="get">
+        <label for="search">Szukaj:</label>
+        <input type="search" id="search" name="q" placeholder="Szukaj filmu...">
+        <button type="submit">Szukaj</button>
+</form>
 </body>
 </html>
