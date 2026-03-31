@@ -6,14 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>R&Z Movies</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>R&Z MOVIES</h1> 
-    <h2>Popularne teraz</h2>
-    <form action="/search" method="get">
-        <input type="search" id="search" name="q" placeholder="Szukaj filmu...">
-        <button type="submit">Szukaj</button>
-</form>
+    <header class="top-bar">
+        <div class="container header-flex">
+            <h1>R&Z Movies</h1> 
+            
+            <form action="/search" method="get" class="search-form">
+                <input type="text" id="search" name="q" placeholder="Szukaj filmu...">
+                <button type="submit">Szukaj</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Popularne teraz</h2>
+
+        <div class="grid-container">
+            <article class="movie-card">
+                <img src="" alt="Plakat filmu Incepcja">
+                <div class="movie-info">
+                    <h3>Incepcja</h3>
+                    <span class="rating">⭐ 8.8</span>
+                </div>
+            </article>
+        </div>
+    </main>
 </body>
 </html>
