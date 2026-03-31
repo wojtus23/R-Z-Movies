@@ -108,3 +108,34 @@ h2 {
     color: rgba(255, 163, 26);
     font-weight: bold;
 }
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.main-nav {
+    margin: 0 20px;
+}
+
+.fav-link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(255, 163, 26);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.fav-link:hover {
+    background-color: rgba(255, 163, 26); 
+}
+
+
+.search-form {
+    display: flex;
+    gap: 5px;
+}
