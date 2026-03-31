@@ -1,4 +1,16 @@
 h1{
     color: rgba(255, 163, 26);
-    
+}
+h2{
+    color: white;
+}
+button{
+    background-color:rgba(255, 163, 26) ;
+    color:rgba(27,27,27) ;
+}
+form{
+    align-items: right;
+}
+body{
+    background-color: rgba(27,27,27);
 }
