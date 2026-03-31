@@ -30,6 +30,10 @@ h1{
     margin-bottom: 30px; 
 }
 
+.top-bar h1{
+    order: 1;
+}
+
 .header-flex {
     display: flex; 
     justify-content: space-between; 
@@ -117,6 +121,7 @@ h2 {
 
 .main-nav {
     margin: 0 20px;
+    order: 3;
 }
 
 .fav-link {
@@ -138,4 +143,5 @@ h2 {
 .search-form {
     display: flex;
     gap: 5px;
+    order: 2;
 }
