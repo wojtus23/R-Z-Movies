@@ -10,7 +10,7 @@ img{
 
 body{
     background-color: rgba(27,27,27);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica;
 }
 
 .container {
@@ -50,7 +50,6 @@ h1{
     padding: 10px;
     width: 250px;
     border: none;
-    outline: none;
 }
 
 
